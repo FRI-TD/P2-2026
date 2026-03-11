@@ -1,3 +1,5 @@
+package osnove;
+
 import java.util.Random;
 
 public class Nakljucje {

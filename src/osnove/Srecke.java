@@ -1,3 +1,5 @@
+package osnove;
+
 public class Srecke {
 
   public static void main(String[] args) {

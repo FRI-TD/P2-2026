@@ -1,3 +1,5 @@
+package osnove;
+
 public class Metoda {
   // ni OK, ker void metoda ne sme ničesar vračati
 

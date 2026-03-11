@@ -1,3 +1,5 @@
+package osnove;
+
 public class StatistikaNizov2 {
 
   static void izpisiStatistiko(String niz) {

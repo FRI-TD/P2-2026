@@ -1,3 +1,5 @@
+package osnove;
+
 import java.util.Scanner;
 
 public class Povprecje {
@@ -32,7 +34,7 @@ public class Povprecje {
 
     if (n>0) {
       double povprecje = 1.0 * vsota / n;
-      System.out.printf("Povprecje %d prebranih ocen je %.2f\n", n, povprecje);
+      System.out.printf("osnove.Povprecje %d prebranih ocen je %.2f\n", n, povprecje);
     } else {
       System.out.println("Ni bilo vpisanih ocen!");
     }

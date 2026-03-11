@@ -1,3 +1,5 @@
+package osnove;
+
 public class JavaZakon {
     public static void main(String[] args) {
 /*

@@ -1,3 +1,5 @@
+package osnove;
+
 public class Tabela {
 
   public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package osnove;
+
 public class StatistikaNiza {
 
   public static void main(String[] args) {

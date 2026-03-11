@@ -1,3 +1,5 @@
+package osnove;
+
 public class IzpisRacuna {
   public static void main(String[] args) {
     // x = 5, y = 7,   ->  5 + 7 = 12

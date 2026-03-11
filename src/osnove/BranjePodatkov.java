@@ -1,3 +1,5 @@
+package osnove;
+
 import java.util.*;
 
 public class BranjePodatkov {
@@ -7,7 +9,6 @@ public class BranjePodatkov {
     int starost;
 
     Scanner tipkovnica = new Scanner(System.in); // se "povežem" s tipkovnico
-
 
     System.out.print("Vpisi svoje ime: ");
     ime = tipkovnica.nextLine();

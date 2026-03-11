@@ -1,3 +1,5 @@
+package osnove;
+
 public class Obresti {
 
   public static void main(String[] args) {

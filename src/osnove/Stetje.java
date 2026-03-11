@@ -1,3 +1,5 @@
+package osnove;
+
 public class Stetje {
 
   public static void main(String [] args) {
