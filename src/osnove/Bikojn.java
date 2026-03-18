@@ -7,17 +7,9 @@ import java.util.Scanner;
 public class Bikojn {
 
   public static void main(String[] args) throws Exception {
-
+    Locale.setDefault(Locale.ENGLISH);
     Scanner sc = new Scanner(new File("viri/bitcoin.txt"));
 
-    /*
-    while (sc.hasNextLine()) {
-      String vrstica = sc.nextLine(); // preberem ...
-      System.out.println(vrstica); // .. in izpisem vse vrstice
-    }
-    */
-
-    Locale.setDefault(Locale.ENGLISH);
 
     double min = Double.MAX_VALUE;
     double max = 0;
@@ -27,8 +19,8 @@ public class Bikojn {
     while (sc.hasNext()) {
       String datum = sc.next();
 
-      // if (!sc.hasNextDouble()) break;
-      // double vrednost = sc.nextDouble();
+//       if (!sc.hasNextDouble()) break;
+//       double vrednost = sc.nextDouble();
 
       String vrednostD = sc.next();
       double vrednost = Double.parseDouble(vrednostD);
