@@ -1,4 +1,4 @@
-package operatorji;
+package predavanja4;
 
 public class Znaki {
 

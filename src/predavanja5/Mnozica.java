@@ -1,4 +1,4 @@
-package operatorji;
+package predavanja5;
 
 public class Mnozica {
 
