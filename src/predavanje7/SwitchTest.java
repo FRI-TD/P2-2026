@@ -20,7 +20,7 @@ public class SwitchTest {
       case 1 -> "Ena";
       case 2 -> "Dva";
       case 3 -> "Tri";
-      default -> "Nekaj drugega";
+      default -> "Nekaj drugega"; //
     };
     System.out.println(niz);
 
