@@ -5,7 +5,7 @@ import java.io.PrintWriter;
 import java.util.Scanner;
 
 public class BeriPisi {
-  public static String preberiDatoteko(String imeDatoteke) {
+   public static String preberiDatoteko(String imeDatoteke) {
     try {
       StringBuilder sb = new StringBuilder();
       Scanner sc = new Scanner(new File(imeDatoteke));
