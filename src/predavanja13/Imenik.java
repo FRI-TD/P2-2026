@@ -14,6 +14,7 @@ public class Imenik {
   }
 
   static void izpisi(ArrayList<Oseba> osebe) {
+    System.out.println("Osebe v imeniku:");
     for(Oseba o : osebe)
       System.out.println(o);
   }
@@ -39,23 +40,38 @@ public class Imenik {
   static ArrayList<Oseba> preberiOsebe() {
     ArrayList<Oseba> osebe = new ArrayList<>();
     File f = new File("viri/imenik.bin");
-    try (FileInputStream fis = new FileInputStream(f);
-         ObjectInputStream dis = new ObjectInputStream(fis);)
-    {
-      do {
-        Oseba o = (Oseba) dis.readObject();
+
+    FileInputStream fis = null;
+    ObjectInputStream oos = null;
+
+    try {
+      fis = new FileInputStream(f);
+      oos = new ObjectInputStream(fis);
+
+      while (true) {
+        Oseba o = (Oseba) oos.readObject();
         osebe.add(o);
-      } while (true);
+      }
+    } catch (EOFException e) {
+      // ne naredimo niceasr, saj je to pričakovana napaka
     } catch (Exception e) {
       System.out.println("Napaka: " + e);
+    } finally {
+      try {
+        oos.close();
+      } catch (Exception e) {
+        System.out.println("Napaka pri zapiranju");
+      }
     }
     return osebe;
   }
 
   public static void main(String[] args) {
     //ArrayList<Oseba> osebe = ustvariImenik();
+    //zapisiVDatoteko(osebe);
+
     ArrayList<Oseba> osebe = preberiOsebe();
     izpisi(osebe);
-    //zapisiVDatoteko(osebe);
+
   }
 }
