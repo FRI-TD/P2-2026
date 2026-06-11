@@ -1,4 +1,4 @@
-package predavanja14;
+package predavanje14;
 
 import java.io.File;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package predavanja6;
+package predavanje06;
 
 import java.io.File;
 import java.util.Random;

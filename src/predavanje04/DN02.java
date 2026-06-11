@@ -1,4 +1,4 @@
-package predavanja4;
+package predavanje04;
 
 // prikaz uporabe tridelnega operatorja ? za elegantno rešitev 2. domače naloge
 class DN02 {

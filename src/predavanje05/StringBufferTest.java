@@ -1,4 +1,4 @@
-package predavanja5;
+package predavanje05;
 
 public class StringBufferTest {
 

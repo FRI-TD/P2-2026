@@ -1,4 +1,4 @@
-package predavanja6;
+package predavanje06;
 
 public class Split {
 

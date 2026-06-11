@@ -1,8 +1,6 @@
-package predavanja14;
+package predavanje14;
 
-import javax.imageio.IIOImage;
 import javax.swing.*;
-import java.awt.*;
 
 public class PrvoOkno {
 

@@ -1,4 +1,4 @@
-package predavanje7;
+package predavanje07;
 
 import static java.lang.Math.PI;
 

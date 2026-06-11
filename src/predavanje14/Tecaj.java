@@ -1,6 +1,5 @@
-package predavanja14;
+package predavanje14;
 
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Scanner;
 import java.util.regex.Matcher;

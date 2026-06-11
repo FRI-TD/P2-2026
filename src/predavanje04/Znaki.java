@@ -1,4 +1,4 @@
-package predavanja4;
+package predavanje04;
 
 public class Znaki {
 

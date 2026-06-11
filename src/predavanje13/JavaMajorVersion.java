@@ -1,4 +1,4 @@
-package predavanja13;
+package predavanje13;
 
 import java.io.BufferedInputStream;
 import java.io.DataInputStream;
@@ -8,7 +8,7 @@ import java.io.FileInputStream;
 public class JavaMajorVersion {
 
   public static void main(String[] args) {
-    String imeDatoteke = "D:\\Users\\tomaz\\Dropbox\\FRI\\pedagosko\\P2\\P2_2026\\code\\out\\production\\Predavanja\\predavanja13\\ListFiles.class";
+    String imeDatoteke = "D:\\Users\\tomaz\\Dropbox\\FRI\\pedagosko\\P2\\P2_2026\\code\\out\\production\\Predavanja\\predavanje13\\ListFiles.class";
 
     File f = new File(imeDatoteke);
     try {
